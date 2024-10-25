@@ -116,4 +116,18 @@ const MoodTracker = () => {
   );
 };
 
+const styles = StyleSheet.create({
+  emojiGrid: {
+    flexDirection: 'row',
+    flexWrap: 'wrap',
+    justifyContent: 'space-between',
+    marginBottom: 20,
+  },
+  emojiBox: {
+    width: '30%', // Each emoji takes up 30% of the available width
+    alignItems: 'center',
+    marginVertical: 10,
+  },
+});
+
 export default MoodTracker;
